@@ -1,0 +1,170 @@
+h1{
+  font-size: 70px;
+  font-weight: bold;
+}
+h2, h3, h4{
+  font-weight: bold;
+}
+p{
+  font-size: 17px;
+}
+.padtb{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.sizeimg{
+  width: 25%;
+}
+.sizesocial{
+  width: 10%;
+  background-color: gray;
+}
+nav{
+  position: fixed;
+  left:0;
+  right: 0;
+  z-index: 2;
+  background-color: white;
+}
+#hidden i{
+  line-height: 30px;
+
+}
+#hidden img{
+  width: 40%;
+}
+nav a{
+}
+#navtop{
+  border-bottom: 1px solid gray;
+}
+#navtop p,a{
+  line-height: 30px;
+  padding: 0;
+  font-size: 13px;
+}
+#navbottom{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+  vertical-align: center;
+}
+#navbottom img {
+  width: 100%;
+}
+#navbottom  .text-right a{
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+#welcome{
+  padding-top: 15%;
+  background-color: #0F2656;
+  background-image: url("../img/bg-home-1-d54581d7.jpg");
+  background-size: cover;
+}
+#welcome .leftb .box{
+  color: white;
+}
+#welcome .rightb .box{
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+#welcome .rightb .box .msbtn{
+  width: 100%;
+  background-color: #0080Ff;
+  background-image: none;
+  color: white;
+}
+#socials{
+  background-color: #F3F5F9;
+}
+
+#socials li{
+  display: inline-block;
+  list-style-type: none;
+  width: calc((100% / 6) - 4px)
+}
+#socials img{
+  max-width: 80%;
+  margin-top: auto;
+}
+#deploy .pad{
+  padding-left: 20%;
+}
+#deploy li{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 20%;
+}
+#deploy p{
+  color: gray;
+}
+#design{
+  background-color: #F3F5F9;
+}
+#design *{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#design img{
+  width: 60%;
+}
+#business li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#business li p{
+  color: gray;
+}
+#service{
+  background: #0F2656 url("../img/svg0.svg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#service td{
+  color: gray;
+}
+#development{
+  background-color: #F3F5F9;
+}
+#development .box{
+  background-color: white;
+  margin: auto;
+  width: 50%;
+}
+#development .box *{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#development .box img{
+  margin-bottom: 5px;
+  width: 30%;
+}
+#start{
+  color: white;
+  background-image: url("../img/bg-home-1-d54581d7.jpg");
+  background-size: cover;
+}
+footer{
+  background-color: #010E28;
+  color: gray;
+}
+footer li{
+  color: white;
+}
+footer li a{
+  color: gray;
+}
+footer #logo i{
+  font-size: 50px;
+  color: #0080FF;
+}
+footer i{
+  font-size: 25px;
+}
